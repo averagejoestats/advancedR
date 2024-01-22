@@ -10,6 +10,12 @@ subsetting, functions, errors, debugging, and performance. We will
 also cover some topics in numerical methods, such as the floating 
 point number system, matrix computations, and optimization.
 
+## Module 01 - Atomic Vectors and Lists
+
+[Video 1](https://youtu.be/d_tf5SU_Ezk)  
+[Video 2](https://youtu.be/znPZaXMkVjg)  
+[Exercises][exercises/ex01_dates.Rmd]
+
 ## Videos
 
 [Course Playlist](https://www.youtube.com/playlist?list=PLqQjbBX7bZ0dcmFvv_t9iQnCrO6LHU1IF)  

@@ -5,16 +5,16 @@ Learning material for STSCI 4520 (Cornell U., Prof. Joe Guinness)
 This course assumes you have done some R programming before, so
 you know how to do things like write for loops and if/else statements.
 
-We will cover the advanced topics in R, such as data structures,
+We will cover advanced topics in R, such as data structures,
 subsetting, functions, errors, debugging, and performance. We will
 also cover some topics in numerical methods, such as the floating 
 point number system, matrix computations, and optimization.
 
 ## Youtube
 
-[Course Playlist](https://www.youtube.com/playlist?list=PLqQjbBX7bZ0dcmFvv_t9iQnCrO6LHU1IF)
-[My Channel](https://www.youtube.com/@averagejoestats)
-[My Other Channel](https://www.youtube.com/@joeguinness4597)
+[Course Playlist](https://www.youtube.com/playlist?list=PLqQjbBX7bZ0dcmFvv_t9iQnCrO6LHU1IF)  
+[My Channel](https://www.youtube.com/@averagejoestats)  
+[My Other Channel](https://www.youtube.com/@joeguinness4597)  
 
 ## Textbooks
 

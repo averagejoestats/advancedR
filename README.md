@@ -14,7 +14,7 @@ point number system, matrix computations, and optimization.
 
 [Video 1](https://youtu.be/d_tf5SU_Ezk)  
 [Video 2](https://youtu.be/znPZaXMkVjg)  
-[Exercises][exercises/ex01_dates.Rmd]
+[Exercises](exercises/ex01_dates.Rmd)
 
 ## Videos
 

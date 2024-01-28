@@ -1,0 +1,67 @@
+---
+title: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Stat Computing - Exercises 02 - Gradebook
+
+There is a dataset in `datasets/grade_book.csv` containing simulated
+grades for Statistical Computing. From the exercises directory, you
+can read in the dataset by running
+
+```{r}
+dat <- read.csv("../datasets/grade_book.csv")
+```
+Complete the following exercises related to the grade book.
+
+1. Randomly generate with replacement a birth date for each student between
+   2002-01-01 and 2006-12-31. Print out how many unique birth dates there
+   are (year-month-date) and how many unique birthdays there are (month-date).
+   Is this surprising?
+
+2. Add the birthdate column to the data frame in 3 different ways: using
+   `cbind`, `$`, and `[[]]`.
+
+3. Print out the column names.
+
+4. Remove the birthdate column and show that it's gone.
+
+4. Print out which column number has the netIDs.
+
+5. Print out the column numbers that contain quiz grades. You might find the
+   `grep` function useful.
+
+6. Print out the column numbers that contain exercise grades.
+
+7. What happens when you try to convert the data frame to a matrix with
+   `as.matrix`?
+
+8. Extract the exercise columns and convert to a matrix. Why does this work as intended?
+
+9. Add a column to the data frame containing each student's average exercise
+   grade.  Treat missing values as a grade of 0. You can do this in a couple of
+   lines with `rowSums` or `rowMeans`. Exercises are out of 20. Print out the average
+   exercise grades for the first 10 students.
+
+10. Calculate each student's exercise average again, this time using the
+    average of the non-missing values. Print out the average exercise grades
+    for the first 10 students.
+
+11. Print out the number of missing exercises for each exercise.
+
+12. Calculate each student's quiz average, and add to the data frame. Quizzes are out of 10
+    in this gradebook. Print out the average quiz grades for the first 10 students.
+
+13. Using the formula in the syllabus, add a column containing each student's
+    overall numeric grade. Treat missing assignments as 0. Project is out of 100.
+
+14. Using the guidelines in the syllabus, add a column containing each
+    student's letter grade.
+
+15. Print out the netID, numeric average, and letter grade for the top 10
+    scorers. You may want to look at the `order` function.
+
+ 

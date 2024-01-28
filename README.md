@@ -10,6 +10,12 @@ subsetting, functions, errors, debugging, and performance. We will
 also cover some topics in numerical methods, such as the floating 
 point number system, matrix computations, and optimization.
 
+## Module 02 - Subsetting
+
+[Video 1](https://youtu.be/mQWqmsQG4q4)  
+[Video 2](https://youtu.be/AJOIvl6oqjw)  
+[Exercises](exercises/ex02_gradebook.Rmd)  
+
 ## Module 01 - Atomic Vectors and Lists
 
 [Video 1](https://youtu.be/d_tf5SU_Ezk)  

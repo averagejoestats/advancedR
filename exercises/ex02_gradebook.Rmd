@@ -52,8 +52,8 @@ Complete the following exercises related to the grade book.
 
 11. Print out the number of missing exercises for each exercise.
 
-12. Calculate each student's quiz average, and add to the data frame. Quizzes are out of 10
-    in this gradebook. Print out the average quiz grades for the first 10 students.
+12. Calculate each student's quiz average, and add to the data frame. Quizzes are out of 20.
+    Print out the average quiz grades for the first 10 students.
 
 13. Using the formula in the syllabus, add a column containing each student's
     overall numeric grade. Treat missing assignments as 0. Project is out of 100.

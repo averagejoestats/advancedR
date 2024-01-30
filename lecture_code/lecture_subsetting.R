@@ -1,5 +1,4 @@
 
-# https://docs.google.com/document/d/1g6YpoHgvUT28CuFyvB5I6yyC63wvsCrDvt6fwer-0fE/edit
 
 
 # flight data

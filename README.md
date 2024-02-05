@@ -10,6 +10,12 @@ subsetting, functions, errors, debugging, and performance. We will
 also cover some topics in numerical methods, such as the floating 
 point number system, matrix computations, and optimization.
 
+## Module 03 - Functions
+
+[Video 1](https://youtu.be/9VCTpGCgo74)  
+[Video 2](https://youtu.be/e_u5yGGjVFw)  
+[Exercises](exercises/ex03_billboard.Rmd)  
+
 ## Module 02 - Subsetting
 
 [Video 1](https://youtu.be/mQWqmsQG4q4)  

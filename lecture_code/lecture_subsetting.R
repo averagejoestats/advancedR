@@ -1,9 +1,8 @@
 
-
-
 # flight data
 # read in the data from one day
 dat <- read.csv("../datasets/airline_2019-07-01.csv")
+class(dat)
 nrow(dat)
 ncol(dat)
 dim(dat)

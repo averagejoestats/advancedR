@@ -10,6 +10,11 @@ subsetting, functions, errors, debugging, and performance. We will
 also cover some topics in numerical methods, such as the floating 
 point number system, matrix computations, and optimization.
 
+## Module 04 - Input/Output
+
+[Video 1](https://youtu.be/T02eperSboc)  
+[Exercises](exercises/ex04_weather.Rmd)  
+
 ## Module 03 - Functions
 
 [Video 1](https://youtu.be/9VCTpGCgo74)  

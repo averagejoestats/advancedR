@@ -1,0 +1,56 @@
+
+---
+title: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Statistical Computing - Exercises 05 - Variable Selection
+
+In these exercises, you will implement a regression variable selection
+procedure called forward selection. You will apply your variable
+selection procedure to the Ames, Iowa housing dataset, which can be
+read into R with (after you've installed the modeldata package):
+
+```{r}
+#install.packages("modeldata")
+data("ames", package = "modeldata")
+```
+
+Forward selection starts with a model with only an intercept, and then
+picks the covariate that, when added to the model, minimizes an
+*information criterion*, such as the Akaike Information Criterion
+(AIC). After that covariate is added, it attempts to add the covariate
+from the remaining set of covariates that when added to the model,
+makes the information criterion smallest. This process is continued
+until none of the remaining covariates decrease the information
+criterion.
+
+1. Look up the definition of the AIC (Wikipedia is fine), and write a
+function that takes in an object of class `lm` (the result of running
+the `lm` function to fit a linear model), and returns the AIC value.
+There is a function in R called `logLik` that might be helpful.
+
+2. Write a function that takes in a string indicating the response
+variable, and a vector of strings indicating covariate values, and
+returns a string containing a model formula, such as
+\verb!"Sale_Price ~ Gr_Liv_Area + Total_Bsmt_SF"!
+
+3. Write a function that takes in a string response, two vectors of
+string covariates, a dataset, and returns the covariate from the
+second set that decreases the AIC most when added to a model
+containing the first set of covariates. If none decrease the AIC, the
+function should return NULL or a length-zero vector.
+
+4. Use these functions to write a function implementing the forward
+selection algorithm on the Ames housing data, using both Sale_Price
+and log Sale_Price as the response. Your forward selection function
+should take in a response string, a character vector of candidate
+covariates (in case you don't want to test all the covariates, or want
+to try some interactions), a data frame, and return the vector of
+selected covariates. Your function should check whether the candidate
+covariates are available in the data frame, and return an error with
+an informative error message if not. 
+

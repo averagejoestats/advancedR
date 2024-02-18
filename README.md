@@ -10,6 +10,12 @@ subsetting, functions, errors, debugging, and performance. We will
 also cover some topics in numerical methods, such as the floating 
 point number system, matrix computations, and optimization.
 
+## Module 05 - Errors and Debugging
+
+[Video 1](https://youtu.be/3SwZzLv8VVc)  
+[Video 2](https://youtu.be/krXBY3C8V2A)  
+[Exercises](exercises/ex05_variable_selection.Rmd)  
+
 ## Module 04 - Input/Output
 
 [Video 1](https://youtu.be/T02eperSboc)  

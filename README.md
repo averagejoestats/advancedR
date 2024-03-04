@@ -10,6 +10,11 @@ subsetting, functions, errors, debugging, and performance. We will
 also cover some topics in numerical methods, such as the floating 
 point number system, matrix computations, and optimization.
 
+## Module 07 - Performance
+
+[Video 1](https://youtu.be/VNIZPpL3rr8)  
+[Exercises](exercises/ex07_performance.Rmd)  
+
 ## Module 06 - Graphics
 
 [Video 1](https://youtu.be/Wp5HeqVITSY)  

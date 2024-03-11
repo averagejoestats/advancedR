@@ -13,7 +13,9 @@ point number system, matrix computations, and optimization.
 ## Module 08 - Floating Point Numbers
 
 [Video 1](https://youtu.be/qMsWW41tuz4)  
-[Exercises](exercises/ex08_floating_point.Rmd)  
+[Exercises](exercises/ex08_floating_point.Rmd)   
+[Notes](video_code/floating_point.pdf)   
+Reading: Chapter 2 of Monahan
 
 ## Module 07 - Performance
 

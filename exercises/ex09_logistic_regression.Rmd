@@ -7,7 +7,7 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Statistical Computing - Exercises 11 - Logistic Regression
+# Statistical Computing - Exercises 09 - Logistic Regression
 
 We will implement Fisher scoring for logistic regression, and 
 apply it to the 2003 NFL field goal data.

@@ -10,6 +10,12 @@ subsetting, functions, errors, debugging, and performance. We will
 also cover some topics in numerical methods, such as the floating 
 point number system, matrix computations, and optimization.
 
+## Module 09 - Optimization
+
+[Video 1](https://youtu.be/PV6i4uN_eOM)  
+[Exercises](exercises/ex09_logistic_regression.Rmd)   
+[Notes](video_code/continuous_optimization.pdf)   
+
 ## Module 08 - Floating Point Numbers
 
 [Video 1](https://youtu.be/qMsWW41tuz4)  

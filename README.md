@@ -10,6 +10,12 @@ subsetting, functions, errors, debugging, and performance. We will
 also cover some topics in numerical methods, such as the floating 
 point number system, matrix computations, and optimization.
 
+## Module 10 - dplyr
+
+[Video 1](https://youtu.be/T7B_v4jkLbw)  
+[Exercises](exercises/ex10_hurdat_dplyr.Rmd)   
+[Reading](https://r4ds.hadley.nz/data-transform)   
+
 ## Module 09 - Optimization
 
 [Video 1](https://youtu.be/PV6i4uN_eOM)  

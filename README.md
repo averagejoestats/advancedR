@@ -10,6 +10,12 @@ subsetting, functions, errors, debugging, and performance. We will
 also cover some topics in numerical methods, such as the floating 
 point number system, matrix computations, and optimization.
 
+## Module 11 - Modeling
+
+[Video 1](https://youtu.be/uxBLaicz1hg)  
+[Video 2](https://youtu.be/6zAJwviUjTQ)  
+[Exercises](exercises/ex11_ames_spatial_modeling.Rmd)   
+
 ## Module 10 - dplyr
 
 [Video 1](https://youtu.be/T7B_v4jkLbw)  

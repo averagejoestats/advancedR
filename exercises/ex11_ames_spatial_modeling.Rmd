@@ -1,0 +1,65 @@
+---
+title: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Statistical Computing - Exercises 11 - Spatial Modeling of Ames Housing Data
+
+```{r}
+ames <- read.csv( "../datasets/ames_housing.csv")
+```
+
+
+
+## Exercises
+
+1. Make two informative spatial plots of the data. One of them should
+   visualize the sale prices of the data. Use plotting symbols,
+   colors, etc. to get as much important information about the houses       into the plot, without being overwhelming visually. For a challenge,
+   try to get the spatial aspect ratio close to correct (recall how
+   spherical coordinates work). Indicate on your plot where the
+   outliers mentioned in the video are.
+   
+2. Remove the outliers from all of your model fits below.
+   
+3. Fit two models to the sale prices. One should not include 
+   neighborhood effects, and one should. Include at least one
+   important variable not discussed in the video. 
+   Display the non-neighborhood model coefficients side by side.
+   
+4. Make two new spatial plots of the *residuals* of the sale prices
+   from the two models, side by side. Be careful here because
+   residuals can be negative. Make sure to distinguish between
+   positive and negative residuals in the plot. 
+   Describe the differences between the two plots.
+   
+5. Use the `fit_model` function from the GpGp R package to fit
+   a spatial model to the data. You will have to read some documentation,    but here are a couple of hints: use the `matern_sphere` covariance
+   function, and use the `model.matrix` function to construct
+   the design matrix. Display the coefficients from your fitted model
+   in comparison to your previous models. 
+   (make sure you set `silent = TRUE` to avoid printing optimization
+   information).
+   
+6. Use `expand.grid` to create a 50 by 50 spatial grid of locations
+   that covers the locations in the dataset. Make a spatial plot
+   showing the locations of the houses and the grid points.
+   
+7. Use the `predictions` function from the GpGp R package to predict
+   the price of a typical home located at all of the grid locations.
+   "Typical home" means that you have to select values of all of
+   the covariates in your model. For numeric covariates, select
+   the average value, and for factors, select the most common factor
+   level.
+   
+8. Make a spatial map of the predicted values. To make a really nice
+   one, consider using the `image` function or the `image.plot` 
+   function from the fields package.
+
+
+
+

@@ -1,0 +1,22 @@
+Package: weatherAPI2
+Type: Package
+Title: National Weather Service API for R
+Version: 0.1.0
+Authors@R: person("Joe", "Guinness", email = "joeguinness@gmail.com",
+  role = c("aut", "cre"))
+Description: Functions to access the National Weather Service API,
+    \url{https://www.weather.gov/documentation/services-web-api}.
+    Retrieve a 7-day forecast for a specific latitude/longitude location.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+    httr,
+    jsonlite
+RoxygenNote: 7.1.1
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr

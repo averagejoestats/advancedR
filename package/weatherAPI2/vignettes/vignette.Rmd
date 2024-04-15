@@ -1,0 +1,29 @@
+---
+title: "vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(weatherAPI2)
+```
+
+```{r}
+# get weather forecast for Ithaca, NY
+data("upstate_cities")
+print( upstate_cities )
+ii <- which( upstate_cities$name == "Ithaca" )
+grid_info <- get_geo_data( upstate_cities$lat[ii], upstate_cities$lon[ii] )
+forecast <- get_7day_forecast( grid_info )
+print( forecast, nperiods = 4 )
+```

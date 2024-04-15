@@ -10,6 +10,10 @@ subsetting, functions, errors, debugging, and performance. We will
 also cover some topics in numerical methods, such as the floating 
 point number system, matrix computations, and optimization.
 
+## Module 12 - R Packages
+
+[Video](https://youtu.be/fQninDTqbAg)  
+
 ## Module 11 - Modeling
 
 [Video 1](https://youtu.be/uxBLaicz1hg)  
